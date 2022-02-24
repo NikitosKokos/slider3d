@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Slider 3d"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+				<section class="showcase">
+					<h2 class="showcase__header">Hoodie <span>Mantle</span></h2>
+					<div class="showcase__content-wrapper">
+						<div class="showcase__content">
+							<div class="showcase-carousel _swiper">
+								<div class="showcase-carousel__item">
+									<div class="showcase-carousel__image-wrapper">
+										<div class="showcase-carousel__image-left">
+											<div class="showcase-carousel__image" style="background-image: url(./img/1.png);"></div>
+										</div>
+										<div class="showcase-carousel__image-right">
+											<div class="showcase-carousel__image" style="background-image: url(./img/1.png);"></div>
+										</div>
+									</div>
+									<p class="showcase-carousel__caption">Front</p>
+								</div>
+								<div class="showcase-carousel__item">
+									<div class="showcase-carousel__image-wrapper">
+										<div class="showcase-carousel__image-left">
+											<div class="showcase-carousel__image" style="background-image: url(./img/2.png);"></div>
+										</div>
+										<div class="showcase-carousel__image-right">
+											<div class="showcase-carousel__image" style="background-image: url(./img/2.png);"></div>
+										</div>
+									</div>
+									<p class="showcase-carousel__caption">Front Two</p>
+								</div>
+								<div class="showcase-carousel__item">
+									<div class="showcase-carousel__image-wrapper">
+										<div class="showcase-carousel__image-left">
+											<div class="showcase-carousel__image" style="background-image: url(./img/3.png);"></div>
+										</div>
+										<div class="showcase-carousel__image-right">
+											<div class="showcase-carousel__image" style="background-image: url(./img/3.png);"></div>
+										</div>
+									</div>
+									<p class="showcase-carousel__caption">Side</p>
+								</div>
+								<div class="showcase-carousel__item">
+									<div class="showcase-carousel__image-wrapper">
+										<div class="showcase-carousel__image-left">
+											<div class="showcase-carousel__image" style="background-image: url(./img/4.png);"></div>
+										</div>
+										<div class="showcase-carousel__image-right">
+											<div class="showcase-carousel__image" style="background-image: url(./img/4.png);"></div>
+										</div>
+									</div>
+									<p class="showcase-carousel__caption">Back</p>
+								</div>
+							</div>
+
+							<div class="showcase-navigation">
+								<div class="showcase-navigation__prev"></div>
+								<div class="showcase-navigation__next"></div>
+							</div>
+						</div>
+					</div>
+
+					<video class="showcase__video" src="./videos/smoke-background.mp4" autoplay loop muted></video>
+				</section>
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
